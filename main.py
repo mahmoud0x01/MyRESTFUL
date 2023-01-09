@@ -98,7 +98,7 @@ def put_dislike(dislike: schemas.LikeCreate,token: str ,db: Session =Depends(get
 		return {'Error': 'Post Does not Exist'}
 
 	if (post_owner==dislike.liker_id):
-		return {'Error','Not allowed to like your own post'}
+		return {'Error','Not allowed to dislike your own post'}
 	return crud.create_dislike(db=db,dislikepost=dislike)
 
 @app.put("/posts/like")
