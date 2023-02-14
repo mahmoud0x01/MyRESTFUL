@@ -10,7 +10,7 @@ This is a functional **RESTFUL API** which has the next features :
 - Like/Dislike Posts
 - Some other Authorization check endpoints
 
-I am using **Session Handling** by makine a **JWT implementation**
+I am using **Session Handling** by making a **JWT implementation**
 
 ## INSTALL
 1. clonning the repo with **git**
@@ -21,7 +21,7 @@ I am using **Session Handling** by makine a **JWT implementation**
 ## Usage
 1. Setting up some keys or leaving them as default inside file `auth.py`
 >JWT_SECRET_KEY, JWT_REFRESH_SECRET_KEY, ACCESS_TOKEN_EXPIRE_MINUTES, REFRESH_TOKEN_EXPIRE_MINUTES, ALGORITHM
-2. starting the server using **unicorn**
+2. starting the server using **uvicorn**
 `uvicorn main:app --reload`
 
 
