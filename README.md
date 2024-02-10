@@ -1,4 +1,4 @@
-# A RESTFUL API written in PYTHON using FASTAPI() and SQLalchemy
+# A Social Network Website RESTFUL API written in PYTHON using FASTAPI() and SQLalchemy
 
 This is a functional **RESTFUL API** which has the next features :
 
